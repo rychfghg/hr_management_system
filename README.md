@@ -1,5 +1,6 @@
 FUNCTIONAL REQUIREMENT
 
+
 1. Employee Information Management
 
 Description: Centralized storage and management of employee data for easy access and updates.
@@ -20,7 +21,9 @@ filtering options to view employee lists by department, status (active, inactive
 role-based access control to restrict access to sensitive employee data.
 data encryption for sensitive personal information.
 
+
 2. Payroll Management
+
 
 Description: Automated payroll processing to ensure accurate and timely employee payments.
 
@@ -34,7 +37,10 @@ Create payslips for each employee detailing salary breakdown, deductions, and ne
 
 
 
+
 3. Time and Attendance Management
+
+
 
 Description: Tracks employee working hours, attendance, and leave to streamline workforce management.
 
@@ -50,7 +56,10 @@ Digital interface for employees to clock in and out of work.
 3.3 	Attendance Reports
 Generate attendance reports for management to review workforce availability and utilization.
 
+
+
 4. Recruitment and Onboarding
+
 
 Description: Facilitates the hiring process by managing job postings and applicant tracking.
 
@@ -68,6 +77,8 @@ Checklists for new hires, manage orientation schedules, and handle necessary doc
 
 
 5. Employee Performance Tracking
+
+
 
 Description: Monitors and evaluates employee performance to support growth and development.
 
@@ -88,6 +99,8 @@ Generate summary reports on individual and team performance.
 
 6. Employee Scheduling
 
+
+
 Description: Manages and organizes employee work schedules, ensuring efficient allocation of shifts and work hours.
 
 Functional Requirements: 
@@ -100,6 +113,8 @@ Viewing of employees upcoming shifts and working hours through a self-service po
 
 6.3 	Overtime Tracking
 Monitor and track overtime hours for employees working beyond their regular shifts.
+
+
 
 
 
