@@ -86,7 +86,7 @@ Generate summary reports on individual and team performance.
 
 
 
-6.Employee Scheduling
+6. Employee Scheduling
 
 Description: Manages and organizes employee work schedules, ensuring efficient allocation of shifts and work hours.
 
