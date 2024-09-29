@@ -1,0 +1,27 @@
+<!-- accounts/templates/accounts/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the HR Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>This system helps you manage your HR tasks efficiently.</p>
+        <p>Please log in or register to get started!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 HR Management System</p>
+    </footer>
+</body>
+</html>
