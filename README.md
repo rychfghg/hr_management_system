@@ -97,23 +97,6 @@ Generate summary reports on individual and team performance.
 
 
 
-6. Employee Scheduling
-
-
-
-Description: Manages and organizes employee work schedules, ensuring efficient allocation of shifts and work hours.
-
-Functional Requirements: 
- 
-6.1	Set Up and Assign Shifts
-schedule for assigning shifts based on employee availability and role requirements.
-
-6.2	Shift Visibility for Employees
-Viewing of employees upcoming shifts and working hours through a self-service portal.
-
-6.3 	Overtime Tracking
-Monitor and track overtime hours for employees working beyond their regular shifts.
-
 
 
 
