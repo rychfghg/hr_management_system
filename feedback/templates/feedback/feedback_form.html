@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Feedback or Suggestions</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Feedback and Suggestions Page</h1>
+    </header>
+    
+    <main class ="ok">
+        <p class ="ok">Submit feedback or suggestions regarding workplace improvements or policies below:</p>
+
+        <form method="post">
+            {% csrf_token %}
+            <div>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="suggestion">Your Feedback/Suggestion:</label>
+                <textarea id="suggestion" name="suggestion" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit Feedback</button>
+            </div>
+        </form>
+
+        <p class ="ok">Want to view submitted feedback? <a href="{% url 'feedback_list' %}">Click here</a> to see the list.</p>
+        <p>Go back to the main page. <a href="{% url 'home' %}">Click here</a></p>
+    </main>
+
+    <footer>
+        <p>© 2024 HR Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

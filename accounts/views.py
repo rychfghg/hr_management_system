@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 
 def home_view(request):
-    return render(request, 'accounts/home.html')  # Check this path
+    return render(request, 'accounts/home.html')  
 
 
 
@@ -16,10 +16,10 @@ def login_view(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('home')  # Redirect to home page after successful login
+            return redirect('home')  
         else:
             messages.error(request, 'Invalid credentials')
-    return render(request, 'accounts/login.html')  # Updated path
+    return render(request, 'accounts/login.html') 
 
 def register_view(request):
     if request.method == 'POST':
@@ -34,11 +34,11 @@ def register_view(request):
                 user = User.objects.create_user(username=username, password=password)
                 user.save()
                 login(request, user)
-                return redirect('home')  # Redirect to home after successful registration
+                return redirect('home') 
         else:
             messages.error(request, 'Passwords do not match')
 
-    return render(request, 'accounts/register.html')  # Updated path
+    return render(request, 'accounts/register.html')  
 
 def home_view(request):
-    return render(request, 'accounts/home.html')  # Ensure home view points to the correct template
+    return render(request, 'accounts/home.html')  

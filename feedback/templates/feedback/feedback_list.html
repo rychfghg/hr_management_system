@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback and Suggestions</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Submitted Feedback and Suggestions</h1>
+
+    {% if feedbacks %}
+        <ul>
+            {% for feedback in feedbacks %}
+                <li>
+                    <strong>{{ feedback.name }}:</strong> {{ feedback.suggestion }}<br>
+                    <small>Submitted on {{ feedback.created_at }}</small><br>
+                    <small>Email: {{ feedback.email }}</small>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No feedback has been submitted yet.</p>
+    {% endif %}
+
+    <p><a href="{% url 'feedback_submit' %}">Submit New Feedback</a></p>
+</body>
+</html>
