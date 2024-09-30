@@ -96,6 +96,24 @@ Maintain a record of feedback for performance reviews.
 Generate summary reports on individual and team performance.
 
 
+6. Employee Scheduling
+
+Description: Manages and organizes employee work schedules, ensuring efficient allocation of shifts and work hours.
+
+Functional Requirements: 
+ 
+6.1	Set Up and Assign Shifts
+schedule for assigning shifts based on employee availability and role requirements.
+
+6.2	Shift Visibility for Employees
+Viewing of employees upcoming shifts and working hours through a self-service portal.
+
+6.3 	Overtime Tracking
+Monitor and track overtime hours for employees working beyond their regular shifts.
+
+
+
+
 
 
 
@@ -108,3 +126,4 @@ https://docs.google.com/spreadsheets/d/100kTUpP4Sychp47k7l7S2iiFd9uNb3wG9xwUYE7G
 ERD
 https://www.figma.com/board/mmlZjU6REvV2qqFbcbgqqv/Physical-ERD?node-id=2-485&node-type=table&t=p2wGRTjdYm4DODtX-0
 
+.
